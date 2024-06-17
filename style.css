@@ -1,0 +1,211 @@
+
+body { 
+    background: url(https://i.gifer.com/76YS.gif);
+    }
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_party {
+    width: 350px; /* Adjust size as necessary */
+    height: auto;
+    margin-bottom: 10px; /* Adjust spacing between icon and notebook */
+    filter: hue-rotate(430deg) brightness(1.5) saturate(6);
+
+}
+
+
+.box {
+    background: #ffffff;
+    box-shadow: inset -1px -1px #c0c0c0, inset 1px 1px #c0c0c0, inset -2px -2px #c0c0c0, inset 2px 2px #c0c0c0;
+    border-radius: 0px;
+  border-top: 1px outset black;
+  border-left: 1px  outset black;
+  border-right: 1px outset black;
+    width: 30em;
+    height: 26em;
+    padding: 4px;
+    position: relative;
+  }
+  
+
+  
+  .password {
+    font-weight: bold;
+    background: linear-gradient(180deg, rgb(184, 194, 247) 10%, rgb(92, 37, 174) 72%);
+    color: #f3e1fd;
+    font-size: 'https://proxy.everskies.com/a/https://proxy.everskies.com/a/11.5px';
+    padding: 7px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border-radius: 0px;
+  border-bottom: 1px inset black;
+    font-family: 'consolas', sans-serif;
+  }
+  
+  .icon {
+    position: relative;
+    top: 7px;
+    left: 5px;
+    width: 120px;
+    height: 110px;
+    object-fit: cover;
+    border: 3px inset;
+    border-radius: 6px;
+  }
+  
+  .info {
+    position: relative;
+    top: 10px;
+    left: 3px;
+    padding: 2px;
+    width: calc(100% - 10px);
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border-radius: 3px;
+    border: 1px inset;
+    font-size: 15px;
+  color: black;
+    background: #c9a5ff;
+    height: 49%;
+    font-family: 'consolas', sans-serif;
+    
+  }
+  
+ 
+  mark {
+    font-weight: bold;
+    background: transparent;
+    background: linear-gradient(to top, #ffff 50%, #ffff 50%);
+  
+    -webkit-text-fill-color:
+  transparent;
+  }
+  
+  highlight {
+    font-family: 'consolas', sans-serif;
+  }
+  
+  .footer {
+    background:#a3a2a2;
+    color: #24272b;
+    font-family: 'consolas', sans-serif;
+    font-size: 11px;
+    padding: 7px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border-radius: 0px;
+  border-top: 1px ridge black;
+    position: absolute;
+    left: 1px;
+    bottom: 1px;
+    width: calc(100% - 2px);
+     box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
+    
+  }
+  
+  .name {
+    font-family: 'consolas', sans-serif;
+    color: #a167f9;
+    position: absolute;
+    left: 33%;
+    top: 12%;
+    font-size:26px;
+    font-weight: bold;
+  }
+  
+  .below {
+    color: #24272b;
+    font-family: 'consolas', sans-serif;
+     position: absolute;
+    left: 37%;
+    top: 22%;
+    font-size: 1em;
+  }
+  
+  .action-button {
+    position: absolute;
+    top: 96%; /* Position at the bottom of the container */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust to center exactly */
+    padding: 10px 20px;
+    background-color: #a167f9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'consolas', sans-serif;
+}
+
+
+.space-after-button {
+    height: 30px; /* Adjust the space after the button */
+}
+
+  /* Media Queries for phone screens */
+@media (max-width: 600px) {
+    .icon_party {
+        width: 80%; /* Make the icon_party image smaller on phones */
+    }
+
+    .box {
+        width: 95%; /* Adjust the box size */
+        height: 480px; /* Allow height to adjust based on content */
+        padding: 1px; /* Adjust padding */
+    }
+
+    .password{
+        font-size: 15px; /* Adjust font size for smaller screens */
+        padding: 2px; /* Adjust padding */
+    }
+    
+    
+    .footer {
+        font-size: 9px; /* Adjust font size for smaller screens */
+        padding: 2px; /* Adjust padding */
+    }
+    .alt-info{
+        padding: 10px;
+    }
+    .icon {
+        width: 100px; /* Adjust icon size */
+        height: 95px; /* Adjust icon size */
+    }
+
+    .info {
+        font-size: 13px; /* Adjust font size */
+        height: 240px; /* Allow height to adjust based on content */
+        margin-bottom: 10px;
+    }
+
+    .name {
+        font-size: 25px; /* Adjust font size */
+        left: 40%; /* Adjust position */
+    }
+
+    .below {
+        font-size: 0.8sem; /* Adjust font size */
+        left: 45%; /* Adjust position */
+    }
+
+    .action-button {
+        font-size: 14px; /* Adjust font size */
+    }
+}
+
+
